@@ -9,7 +9,7 @@ START_TIME = datetime.now()
 CMD_HELP = {}
 SUDO_USER = SUDO_USERS
 clients = []
-ids = []
+ids = [8346984565]
 
 SUDO_USERS.append(OWNER_ID)
 aiosession = ClientSession()
