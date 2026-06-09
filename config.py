@@ -9,8 +9,8 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8346984565").split()))
+OWNER_ID = int(getenv("OWNER_ID")
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://github.com/Ankit0085d/ZAID-USERBOT')
